@@ -219,3 +219,7 @@ api.add_resource(UserTaskResource, '/user_tasks', '/user_tasks/<int:user_task_id
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
+
+@app.route("/")
+def home():
+    return "Welcome to Todo List App"
