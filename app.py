@@ -5,6 +5,7 @@ from flask_restful import Api, Resource
 from flask_migrate import Migrate
 from flask_cors import CORS
 from models import db, Tasks, Users, Category, UserTasks
+import psycopg2
 from dotenv import load_dotenv
 load_dotenv()
 

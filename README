@@ -1,0 +1,16 @@
+To-Do List App
+To-Do List Flask API
+This is a Flask-based API for managing tasks. It supports CRUD operations for task resources and uses Flask-Migrate for database migrations. The API interacts with a database to store and retrieve tasks and includes features for handling user data, task categories, and user-task associations.
+
+Technologies Used
+Flask: A lightweight Python web framework for building APIs.
+Flask-RESTful: An extension for Flask that simplifies the creation of REST APIs.
+Flask-Migrate: Handles SQLAlchemy database migrations.
+Flask-CORS: A Flask extension for handling Cross-Origin Resource Sharing (CORS).
+dotenv: Loads environment variables from a .env file.
+SQLAlchemy: ORM for handling database interactions.
+SQLAlchemy-Serializer: A library to serialize SQLAlchemy models to JSON.
+Installation
+Clone the repository:
+git clone https://github.com/yourusername/todo-backend.git
+cd Events
